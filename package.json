@@ -1,0 +1,21 @@
+{
+  "name": "engineer-osai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-native": "0.86.2"
+  },
+  "devDependencies": {
+    "@react-native/eslint-config": "0.86.2",
+    "eslint": "^10.8.0",
+    "prettier": "^3.9.6"
+  }
+}
